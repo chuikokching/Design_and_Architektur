@@ -7,6 +7,7 @@ package dass.com.singleton.pattern;
  * 线程B 执行到singleton==null  判断为真 因此A B都获得了一个对象
  * 因此建议使用声明的时候直接初始化
  *
+ *
  * **/
 public class SingletonTwo {
 
