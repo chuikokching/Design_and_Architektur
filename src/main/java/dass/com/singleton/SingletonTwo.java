@@ -1,4 +1,4 @@
-package dass.com.singleton.pattern;
+package dass.com.singleton;
 
 /*实例对象并不直接初始化,调用getInstance时再初始化*/
 /**

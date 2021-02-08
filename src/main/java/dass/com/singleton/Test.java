@@ -1,4 +1,4 @@
-package dass.com.singleton.pattern;
+package dass.com.singleton;
 
 public class Test {
 

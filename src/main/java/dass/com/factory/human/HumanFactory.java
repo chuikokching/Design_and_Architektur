@@ -12,7 +12,7 @@ public class HumanFactory {
         try {
             System.out.println(c.getName());
             //c.getName()返回一个字符串变量，它代表一个类的包名和类名 B.S. dass.com.factory.human.YellowHuman 传入参数(YellowHuman.class)
-            //A a = (A)Class.forName(“pacage.A”).newInstance(); A a = new A();是一样的效果。
+            //A a = (A)Class.forName(“package.A”).newInstance(); A a = new A();是一样的效果。
             human = (Human)Class.forName(c.getName()).newInstance();
         }catch (Exception e)
         {

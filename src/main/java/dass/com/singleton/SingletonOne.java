@@ -1,4 +1,4 @@
-package dass.com.singleton.pattern;
+package dass.com.singleton;
 
 /*创建对象实例的时候直接初始化,并且只有一个实例对象*/
 /**
