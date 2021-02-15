@@ -6,7 +6,7 @@ package dass.com.factory.human;
  *
  * Define an interface for creating an object, but let subclasses decide which class to instantiate.
  * Factory Method lets a class defer instantiation to subclasses.
- * 工厂模式让一个类的实例化延迟到其子类，让子类决定实例化哪一个
+ * 工厂模式让一个类的实例化延迟到其子类，让子类决定实例化哪一个，强调对象初始化的过程
  */
 
 /**
@@ -24,6 +24,14 @@ package dass.com.factory.human;
  * 在复杂的应用中一般采用多工厂方式，再增加一个协调类，协调类封装子工厂类，对高层模块提供统一的访问接口
  *
  * **/
+
+
+/*
+* 画图当中虚线和实线的使用
+* 虚线：意味使用,A方法的参数为B,或者某个方法返回了一个B的对象  A虚线B
+* 实线：意味关联,相关性更强,A里面含有B的全局变量或局部变量  A实线B
+*
+* */
 public class NvWa {
 
     public static void main(String[] args) {
