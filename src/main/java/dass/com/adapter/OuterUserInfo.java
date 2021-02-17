@@ -5,7 +5,6 @@ import java.util.Map;
 /**
  * 类适配器 类间继承关系 通过覆写源角色的方法进行扩展
  *
- *
  * **/
 
 public class OuterUserInfo extends OuterInfo implements IUserInfo {
