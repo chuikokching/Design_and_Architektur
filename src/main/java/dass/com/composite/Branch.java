@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /*
 * 安全模式
-* 将控制结构的方法都放到composite里面，如果放到component当中则是透明模式
+* 树枝节点和叶子节点彻底分开，将控制组合结构的方法都放到composite（树枝节点）里面，如果放到component当中则是透明模式
 *
 * */
 public class Branch extends Corp {

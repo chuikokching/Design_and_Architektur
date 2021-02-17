@@ -7,10 +7,20 @@ import java.util.ArrayList;
  * Compose objects into tree structures to represent part-whole hierarchies.Composite lets clients treat individual objects and compositions of objects uniformly.
  * 将对象组合成树形结构以表示“部分-整体”的层次结构，使得用户对单个*对象*和*组合对象*的使用具有一致性.
  *
+ * 涉及到树形结构，以及要体现局部和整体的关系的时候，优先考虑组合模式。
+ *
  * 组合模式的3个角色：
  * 1.Component:定义组合对象的共有方法和属性 比如例子里面的getInfo()封装到抽象类中
  * 2.Composite:树枝对象 组合树枝节点和叶子节点 形成树形结构
  * 3.Leaf:叶子对象 没有分支 遍历最小单位
+ *
+ * 优点：
+ * 1.高层模块调用简单，树形结构中所有节点都是component，局部和整体调用没有区别
+ * 2.节点自由增加，容易拓展，只需要知道父节点
+ *
+ * 使用场景：
+ * 1.维护和展示部分-整体的关系 如树形菜单 文件和文件夹管理器 js树形菜单
+ * 2.从一个整体中独立出部分模块或者功能的场景
  *
  * **/
 
