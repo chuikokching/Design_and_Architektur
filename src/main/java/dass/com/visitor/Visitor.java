@@ -10,6 +10,7 @@ public class Visitor implements IVisitor {
     public void visit(Manager manager) {
         System.out.println(this.getManagerInfo(manager));
     }
+
     //组装出基本信息
     private String getBasicInfo(Employee employee){
         String info = "姓名：" + employee.getName() + "\t";
@@ -29,4 +30,5 @@ public class Visitor implements IVisitor {
         String otherInfo = "工作："+commonEmployee.getJob()+"\t";
         return basicInfo + otherInfo;
     }
+
 }
